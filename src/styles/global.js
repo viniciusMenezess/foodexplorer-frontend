@@ -7,16 +7,22 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing:border-box;
   }
 
-  body {
-    width:100%;
-    height:100vh;
+  :root {
+    font-size:62.5%;
+  }
 
+  body {
     background-color:${({theme}) => theme.COLORS.BACKGROUND_900};
-    color: ${({theme}) => theme.COLORS.WHITE};
+    color: ${({theme}) => theme.COLORS.WHITE_100};
     -webkit-font-smoothing: antialiased;
   }
 
-  a, ul li {
+  body,input, textarea, button {
+    font-family: "Poppins", serif;
+    font-size:1.6rem;
+  }
+
+  a, li {
     text-decoration:none;
     list-style:none;
   }
