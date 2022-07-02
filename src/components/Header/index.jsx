@@ -1,9 +1,10 @@
 import {BsSearch } from "react-icons/bs"
 import { FiLogOut } from "react-icons/fi"
 import { MdOutlineFactCheck } from "react-icons/md"
+import Polygon from "../../assets/Polygon.svg"
+
 import { Container, Logo, Buttons } from "./styles"
 
-import Polygon from "../../assets/Polygon.svg"
 import {Button} from "../Button"
 import {Input} from "../Input"
 
