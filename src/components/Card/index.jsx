@@ -16,7 +16,7 @@ export function Card({title, description, price}) {
 
       <div>
         <Counter/>
-        <Button title="Incluir"/>
+        <Button title="Incluir" onClick={() => console.log("Estou incluindo !")}/>
       </div>
     </Container>
   )

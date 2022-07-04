@@ -7,11 +7,13 @@ export default {
 
     BLUE: "rgba(130, 243, 255, 1)",
 
-    GRAY_200: "#7C7C8A",
     GRAY_100: "#C4C4CC",
+    GRAY_200: "#7C7C8A",
 
-    WHITE_200: "#E1E1E6",
     WHITE_100: "rgba(255, 255, 255, 1)",
+    WHITE_200: "#E1E1E6",
+    WHITE_OPACITY: "rgba(255, 255, 255, 0.3)",
+    
 
     RED: "rgba(117, 3, 16, 1)"
   }

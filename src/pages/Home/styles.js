@@ -4,9 +4,14 @@ export const Container = styled.div`
   width:100%;
   height:100vh;
 
+  display:flex;
+  flex-direction:column;
+
   > main {
-    padding: 0 12.3rem;
+    padding: 40px 123px;
+    overflow-y:auto;
   }
+
 `
 
 export const Rectangle = styled.div`
