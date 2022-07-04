@@ -48,4 +48,13 @@ export const Buttons = styled.div`
   gap: 3.2rem;
 `
 
+export const Logout = styled.button`
+  display:flex;
+  align-items:center;
+  
+  color: ${({theme}) => theme.COLORS.WHITE_100};
+  background: transparent;
+  border:0;
+`
+
 
