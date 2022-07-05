@@ -20,7 +20,7 @@ export const Rectangle = styled.div`
 
   display:flex;
   align-items:center;
-  justify-content:space-evenly;
+  justify-content:space-between;
   padding: 8.7rem 4.62rem;
   margin-top:16.4rem;
   border-radius: 0.8rem;
@@ -34,6 +34,7 @@ export const Rectangle = styled.div`
 
   > div {
     max-width:fit-content;
+    margin-right:150px;
     h1 {
     font-style: normal;
     font-weight: 500;

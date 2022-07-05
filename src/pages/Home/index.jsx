@@ -24,7 +24,7 @@ export function Home() {
 
           <div>
             <h1>Sabores inigualáveis</h1>
-            <span>Sinta o cuidado do preparo com ingredientes selecionados</span>
+            <span>Sinta o cuidado do preparo com ingredientes selecionados.</span>
           </div>
         </Rectangle>
 

@@ -5,6 +5,8 @@ export default {
     BACKGROUND_700: "rgba(13, 29, 37, 1)",
     BACKGROUND_CARD: "rgba(0, 0, 0, 0.32)",
 
+    BORDER_TABLE: "rgba(25, 34, 39, 1)",
+
     BLUE: "rgba(130, 243, 255, 1)",
 
     GRAY_100: "#C4C4CC",
