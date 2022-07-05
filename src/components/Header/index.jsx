@@ -6,7 +6,7 @@ import Polygon from "../../assets/Polygon.svg"
 import { Container, Logo, Buttons, Logout } from "./styles"
 
 import {Button} from "../Button"
-import {Input} from "../Input"
+import {Search} from "../Search"
 
 export function Header() {
   return(
@@ -19,7 +19,7 @@ export function Header() {
 
         <a href="/">Meus favoritos</a>
 
-        <Input placeholder="Busque pelas opções de pratos" icon ={BsSearch}/>
+        <Search placeholder="Busque pelas opções de pratos" icon ={BsSearch}/>
 
       </Logo>
           

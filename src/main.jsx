@@ -5,13 +5,13 @@ import { GlobalStyle } from "./styles/global"
 import { ThemeProvider } from "styled-components"
 import theme from "./styles/theme"
 
-import { Orders } from "./pages/Orders"
+import { SignUp } from "./pages/SignUp"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle/>
-      <Orders />
+      <SignUp />
     </ThemeProvider>
   </React.StrictMode>
 )

@@ -1,23 +1,21 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width:100%;
   display:flex;
   align-items:center;
 
-  background: transparent;
+  background-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
   color: ${({theme}) => theme.COLORS.WHITE_100};
-
-  border: 1px solid ${({theme}) => theme.COLORS.WHITE_100};
 
   border-radius: 0.5rem;
   line-height: 100%;
 
   > input {
-    height:4.8rem;
+    height:5.6rem;
     width:100%;
 
-    padding:1.6rem 1.4rem;
+    padding:1.2rem;
     
     color: ${({theme}) => theme.COLORS.WHITE_100};
     background:transparent;
@@ -32,4 +30,9 @@ export const Container = styled.div`
       outline: 0;
     }
   }
+
+  > svg {
+      margin-left: 1.4rem;
+      color: ${({theme}) => theme.COLORS.GRAY_200}
+    }
 `
