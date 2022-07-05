@@ -15,6 +15,17 @@ export const Container = styled.div`
     overflow-y:auto;
     padding: 0 11.3rem 0 12.3rem;
   }
+
+  > footer {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    width:100%;
+
+    >:first-child {
+      height:12.4rem;
+    }
+  }
 `
 
 export const Table = styled.table`

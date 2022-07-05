@@ -6,6 +6,7 @@ import delivered from "../../assets/delivered.svg"
 
 import { Header } from "../../components/Header"
 import { Section } from "../../components/Section"
+import { Footer } from "../../components/Footer"
 
 export function Orders() {
   return(
@@ -84,6 +85,10 @@ export function Orders() {
           </tbody>
         </Table>
       </main>
+
+      <footer>
+        <Footer/>
+      </footer>
     </Container>
   )
 }
