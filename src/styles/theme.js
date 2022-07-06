@@ -17,6 +17,7 @@ export default {
     WHITE_OPACITY: "rgba(255, 255, 255, 0.3)",
     
 
-    RED: "rgba(117, 3, 16, 1)"
+    RED: "rgba(117, 3, 16, 1)",
+    RED_100: "rgba(171, 77, 85, 1)",
   }
 }

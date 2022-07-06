@@ -34,13 +34,18 @@ export const Table = styled.table`
 
   font-family: "Roboto", serif;
 
+  border:1px solid ${({theme}) => theme.COLORS.BORDER_TABLE};
+
   > thead th {
     font-size: 1.4rem;
     padding: 2.1rem 0 2.1rem 2.4rem;
 
     color: ${({theme}) => theme.COLORS.WHITE_200};
     text-align:left;
-    border: 1px solid ${({theme}) => theme.COLORS.BORDER_TABLE}
+
+    
+    border-top: 1px solid ${({theme}) => theme.COLORS.BORDER_TABLE};
+    border-right: 1px solid ${({theme}) => theme.COLORS.BORDER_TABLE};
   }
 
   > tbody td {
@@ -50,7 +55,9 @@ export const Table = styled.table`
     color: ${({theme}) => theme.COLORS.GRAY_100};
     text-align: left;
 
-    border: 1px solid ${({theme}) => theme.COLORS.BORDER_TABLE};
+    border-top: 1px solid ${({theme}) => theme.COLORS.BORDER_TABLE};
+    border-right: 1px solid ${({theme}) => theme.COLORS.BORDER_TABLE};
+
   }
 
   >tbody tr .order {
